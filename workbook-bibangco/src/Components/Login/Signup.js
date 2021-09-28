@@ -98,6 +98,7 @@ const Login = (props) =>{
                 <Label>First Name</Label>
             <Input id = "firstname"
                   type= "text" 
+                   pattern="[a-zA-Z]*"
                   value= {firstNameValue} 
                   onChange = {firstNameChangeHandler} 
                   onBlur = {firstNameBlurHandler}
@@ -108,6 +109,7 @@ const Login = (props) =>{
                 <Label>Last Name</Label>
             <Input id = "lastname"
                   type= "text" 
+                   pattern="[a-zA-Z]*"
                   value= {lastNameValue} 
                   onChange = {lastNameChangeHandler} 
                   onBlur = {lastNameBlurHandler}
