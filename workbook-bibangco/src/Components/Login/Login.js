@@ -77,6 +77,7 @@ const Login = () =>{
                 <Label>Full Name</Label>
             <Input id = "name"
                   type= "text" 
+                   pattern="[a-zA-Z]*"
                   value= {nameValue} 
                   onChange = {nameChangeHandler} 
                   onBlur = {nameBlurHandler}
